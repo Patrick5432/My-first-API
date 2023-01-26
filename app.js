@@ -5,7 +5,10 @@ const pageContacts = require("./contact");
 const main = require("./main");
 const shop = require("./shop");
 const app = express();
+const bodyParser = require('body-parser');
 
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(express.static(__dirname + '/public'));
 
 
 app.get('/', (request, response) => {
