@@ -7,7 +7,7 @@
 3. Создать пустую папку
 4. Открыть папку при помощи VSCode
 5. В терминале прописать npm init, для подключения будущих утилит для запуска сервера с сайтом
-6. Прописать в терминале mpn install express(должно появиться 3 папки - package.json, package-lock.json и node_modules)
+6. Прописать в терминале npn install express(должно появиться 3 папки - package.json, package-lock.json и node_modules)
 7. Создать файл app.js
 8. В файле app.js прописать строки для включения сервера : //{
     
