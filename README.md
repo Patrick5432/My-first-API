@@ -44,25 +44,25 @@
 14. Заходим в файл shop.js и записываем в первую строку: //{
 
     const shop = `
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Список продуктов</h1>
-    <ul>
-        <li>Сыр</li>
-        <li>Молоко</li>
-        <li>Сметана</li>
-        <li>Лук</li>
-        <li>Сосиски</li>
-    </ul>
-</body>
-</html>
+        <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Список продуктов</h1>
+        <ul>
+            <li>Сыр</li>
+            <li>Молоко</li>
+            <li>Сметана</li>
+            <li>Лук</li>
+            <li>Сосиски</li>
+        </ul>
+    </body>
+    </html>
     `
     module.exports = shop;
 
@@ -102,33 +102,33 @@
 
 21. Дальше в самом файле shop.js добавляем команду: //{
 
-    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
 
 
 }//
 
 //ДОЛЖНО ВСЁ ВЫГЛЯДЕТЬ ТАК //{
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Список продуктов</h1>
-    <ul>
-        <li>Сыр</li>
-        <li>Молоко</li>
-        <li>Сметана</li>
-        <li>Лук</li>
-        <li>Сосиски</li>
-    </ul>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Список продуктов</h1>
+        <ul>
+            <li>Сыр</li>
+            <li>Молоко</li>
+            <li>Сметана</li>
+            <li>Лук</li>
+            <li>Сосиски</li>
+        </ul>
+    </body>
+    </html>
 
 
 }//
