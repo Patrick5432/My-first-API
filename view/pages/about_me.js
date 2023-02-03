@@ -1,10 +1,8 @@
-const head = require('../components/head')
 const header = require('../components/header')
-const footer = require('../components/footer')
+const footer = require('../components/footer');
+const head = require('../components/head')
 
 const aboutme = `
-<!DOCTYPE html>
-<html lang="en">
 ${head('Обо мне')}
 <body>
     ${header}

@@ -1,9 +1,11 @@
 const express = require("express");
 const {request, response} = require("express");
-const aboutme = require("../view/pages/about_me");
-const pageContacts = require("../view/pages/contact");
-const main = require("../view/pages/main");
-const shop = require("../view/pages/shop");
+
+const aboutme = require("./view/pages/about_me");
+const pageContacts = require("./view/pages/contact");
+const main = require("./view/pages/main");
+const shop = require("./view/pages/shop");
+
 const app = express();
 const bodyParser = require('body-parser');
 

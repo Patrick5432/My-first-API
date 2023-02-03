@@ -1,6 +1,8 @@
+const header = require('../components/header')
+const footer = require('../components/footer');
+const head = require('../components/head')
+
 const shop = `
-<!DOCTYPE html>
-<html lang="en">
 ${head('Магазин')}
 <body>
     ${header}

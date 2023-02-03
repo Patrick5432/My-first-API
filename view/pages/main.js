@@ -1,6 +1,8 @@
+const header = require('../components/header')
+const footer = require('../components/footer');
+const head = require('../components/head')
+
 const main = `
-<!DOCTYPE html>
-<html lang="en">
 ${head('Главная страница')}
 <body>
     ${header}
