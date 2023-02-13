@@ -6,7 +6,7 @@ module.exports = (photosrc, tittle, desc, price) => {
         <h3>${tittle}</h3>
         <p>${desc}</p>
         <strong>${price}</strong>
-        <button>В корзину</button>
+        <button><a href = "#">В корзину</a></button>
     </div>
     `
 }

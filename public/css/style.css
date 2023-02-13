@@ -32,6 +32,16 @@ body {
     background: url('/img/background.jpg');
 }
 
+button {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 3px;
+}
+
+button:hover {
+    background: grey;
+}
+
 header {
     display: flex;
     justify-content: space-between;
