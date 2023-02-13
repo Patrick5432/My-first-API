@@ -1,19 +1,22 @@
 const header = require('../components/header')
 const footer = require('../components/footer');
 const head = require('../components/head')
+const card = require('../components/card')
+const products = require('../../moks/product')
+
+let productsHTML = '';
+
+for (let i = 0; i < products.length; i++) {
+    productsHTML = productsHTML + card(products[i].photoSrc, products[i].tittle, products[i].desc, products[i].price)
+}
 
 const shop = `
 ${head('Магазин')}
 <body>
     ${header}
-    <h1>Список продуктов</h1>
-    <ul>
-        <li>Сыр</li>
-        <li>Молоко</li>
-        <li>Сметана</li>
-        <li>Лук</li>
-        <li>Сосиски</li>
-    </ul>
+    <div class = 'products'>
+    ${productsHTML}
+    </div>
     ${footer}
 </body>
 </html>
